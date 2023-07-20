@@ -23,7 +23,7 @@ class MenuData:
         )
 
     def __add_ingredients_in_each_dish(self):
-        for dish in self.dishes:
+        for dish in self.dishes:  # Infelimente O(n²), não achei melhor forma
             for item in self.__data:
                 if dish.name == item["dish"]:
                     ingredient = Ingredient(item["ingredient"])
