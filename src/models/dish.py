@@ -39,3 +39,14 @@ class Dish:
 
     def get_ingredients(self):
         return set(self.recipe.keys())
+
+
+if __name__ == "__main__":
+    new_dish = Dish("Lasagna", 45)
+    mussarela = Ingredient("queijo mussarela")
+    presunto = Ingredient("presunto")
+    new_dish.add_ingredient_dependency(mussarela, 2)
+    new_dish.add_ingredient_dependency(presunto, 2)
+    print(new_dish.get_restrictions())
+    print(new_dish.get_ingredients())
+    print(new_dish.recipe.get(mussarela))
