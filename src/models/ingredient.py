@@ -61,3 +61,9 @@ class Ingredient:
 
     def __repr__(self) -> str:
         return f"Ingredient('{self.name}')"
+
+
+if __name__ == "__main__":
+    mussarela = Ingredient("queijo mussarela")
+    rr_list = {Restriction.LACTOSE, Restriction.ANIMAL_DERIVED}
+    print(mussarela.restrictions & rr_list == set())
