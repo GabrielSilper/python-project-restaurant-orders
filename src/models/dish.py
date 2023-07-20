@@ -43,6 +43,7 @@ class Dish:
 
 if __name__ == "__main__":
     new_dish = Dish("Lasagna", 45)
+    print(new_dish.name)
     mussarela = Ingredient("queijo mussarela")
     presunto = Ingredient("presunto")
     new_dish.add_ingredient_dependency(mussarela, 2)
