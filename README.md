@@ -1,10 +1,20 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Restaurant Orders
+
+Um projeto pra testar meus conhecimentos de algoritmos, Programação orientada a objetos, Python e um pouco de testes.
+A aplicação serve para gerenciamentos de pratos de um restaurante, seu menu e inventário.
+
+### O que foi usado:
+
+- Python
+- POO
+- Pytest
+
+### O que foi desenvolvido:
+
+- Métodos e Classes para gerenciar o restaurante;
+
+### Habilidades desenvolvidas:
+
+- O conceito de Hashmaps através das estruturas de dados Dict e Set do Python;
+- Os conhecimentos de testes de software;
+- Os conhecimentos de orientação a objetos;
